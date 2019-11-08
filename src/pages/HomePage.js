@@ -25,6 +25,7 @@ class HomePage extends Component {
 
   componentDidMount(){
     //this.getData();
+    console.log('test git');
     this.props.getPosts();
   }
 
